@@ -1,0 +1,163 @@
+/* Pengaturan body */
+body
+{
+	margin: 0;
+}
+
+/* Pengaturan tag li*/
+li 
+{
+  list-style: none;
+}
+
+/* Pengaturan header */
+header 
+{
+	height : 75px;
+	width: 100%;
+	background-color: red;
+	/* Biar saat di scroll header nya ga hilang*/
+		/* Ubah position ke fixed, dan top ke 0 */
+		position: fixed;
+		top: 0;
+		/* Ubah z-index ke 10 */
+		z-index: 10;
+}
+
+/* Pengaturan Ukuran Header*/
+.container 
+{
+	width: 85%;
+	/*padding: 0 15px;*/
+	margin: 0 auto;
+}
+
+/* Pengaturan link*/
+a 
+{
+	text-decoration: none;
+}
+
+/* Pengaturan logo*/
+.header-logo 
+{
+	float: left;
+	margin: 10px 0;
+}
+
+/* Pengaturan gambar logo*/
+.logo 
+{
+	width: 124px;
+}
+
+.fa 
+{
+  margin-left: 5px;
+}
+
+/* Pengaturan Menu keseluruhan*/
+.header-menu 
+{
+	float: right; 
+	/*background-color: rgba(255, 255, 255, 0.5);*/
+	/*transition: all 0.5s;*/
+}
+
+/* Pengaturan Menu keseluruhan*/
+.header-menu ul 
+{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	/* buat sejajar */
+	display: inline-block;
+}
+
+/* Pengaturan menu satuan*/
+.header-menu li
+{
+	float: left;
+}
+
+/* Pengaturan menu link satuan */
+.menu
+{
+	line-height: 75px;
+	padding: 0 20px;
+	color: black;
+	margin-left: 20px;
+}
+
+/* Pengaturan Menu link saat di kursor ditempat*/
+.menu:hover 
+{
+	background-color: rgba(255, 255, 255, 0.5);
+	line-height: 75px;
+	display: inline-block;
+}
+
+/* Pengaturan Menu link saat di klik*/
+.menu:active 
+{
+	/*ANIMASI*/
+}
+
+/* Pengaturan Dropdown */
+.dropdown 
+{
+	position: relative;
+	display: inline-block;
+}
+
+/* Pengaturan isi Dropdown keseluruhan */
+.isi-dropdown
+{
+	/* Membuat isi dropdown tidak terlihat*/
+	display: none; 
+	width: 107px;
+}
+
+/* Pengaturan isi Dropdown link */
+.isi-dropdown a
+{
+	display: block;
+	background-color: yellow;
+	line-height: 75px;
+	padding: 0 20px;
+}
+
+/* Pengaturan isi dropdown saat kursor ditempat */
+.dropdown:hover .isi-dropdown
+{
+	display: block;
+}
+
+/* Pengaturan bagian atas */
+.atas 
+{
+	padding: 180px 0 100px 0;
+	/* background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+	background-size: cover;*/
+	color: blue;
+	text-align: center;
+}
+
+.atas h1 
+{
+	font-size: 45px;
+	margin-bottom: 10px;
+}
+
+.atas h2 
+{
+	font-size: 35px;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+
+.atas p
+{
+	font-size: 20px;
+	margin: 10px 0;
+}
