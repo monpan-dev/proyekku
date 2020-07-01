@@ -15,7 +15,7 @@ header
 {
 	height : 75px;
 	width: 100%;
-	background-color: red;
+	background-color: rgba(245, 0, 87);
 	/* Biar saat di scroll header nya ga hilang*/
 		/* Ubah position ke fixed, dan top ke 0 */
 		position: fixed;
@@ -59,8 +59,7 @@ a
 /* Pengaturan Menu keseluruhan*/
 .header-menu 
 {
-	float: right; 
-	/*background-color: rgba(255, 255, 255, 0.5);*/
+	float: right;
 	/*transition: all 0.5s;*/
 }
 
@@ -122,9 +121,16 @@ a
 .isi-dropdown a
 {
 	display: block;
-	background-color: yellow;
+	background-color: #FF768C;
 	line-height: 75px;
 	padding: 0 20px;
+}
+
+.isi-dropdown a:hover
+{
+	background-color: rgba(255, 255, 255, 0.9);
+	line-height: 75px;
+	display: inline-block;
 }
 
 /* Pengaturan isi dropdown saat kursor ditempat */
@@ -137,21 +143,26 @@ a
 .atas 
 {
 	padding: 180px 0 100px 0;
-	/* background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
-	background-size: cover;*/
+	background-image: url(undraw_cooking_lyxy.svg);
+	background-size: contain;
+	position: relative;
+	overflow: hidden;
 	color: blue;
 	text-align: center;
 }
 
 .atas h1 
 {
-	font-size: 45px;
-	margin-bottom: 10px;
+	font-size: 100px;
+	margin: 10px 0;
+	font-weight: bolder;
+	font-family: 'Sacramento', cursive;
 }
 
 .atas h2 
 {
-	font-size: 35px;
+	font-size: 40px;
+	margin-top: 10px;
 	margin-bottom: 30px;
 	font-weight: normal;
 }
