@@ -80,7 +80,7 @@ a
 }
 
 /* Pengaturan menu link satuan */
-.menu
+.daftar
 {
 	line-height: 75px;
 	padding: 0 20px;
@@ -89,7 +89,7 @@ a
 }
 
 /* Pengaturan Menu link saat di kursor ditempat*/
-.menu:hover 
+.daftar:hover 
 {
 	background-color: rgba(255, 255, 255, 0.5);
 	line-height: 75px;
@@ -97,7 +97,7 @@ a
 }
 
 /* Pengaturan Menu link saat di klik*/
-.menu:active 
+.daftar:active 
 {
 	/*ANIMASI*/
 }
@@ -143,11 +143,11 @@ a
 .atas 
 {
 	padding: 180px 0 100px 0;
-	background-image: url(undraw_cooking_lyxy.svg);
+	background-image: url("image/gambar.jpg");
 	background-size: contain;
 	position: relative;
 	overflow: hidden;
-	color: blue;
+	color: rgb(6, 6, 7);
 	text-align: center;
 }
 
@@ -171,4 +171,46 @@ a
 {
 	font-size: 20px;
 	margin: 10px 0;
+}
+
+/* MAIN TAMBAHAN */
+.menu-makanan {
+	height: 300px;
+	padding-bottom: 20px;
+  	background-color: #f7f7f7;
+  	text-align:center;
+}
+
+.menu-minuman {
+	height: 300px;
+	padding-bottom: 80px;
+  	background-color: #f7f7f7;
+  	text-align:center;
+}
+
+.content {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: #5f5d60;
+}
+
+.content h2 {
+	font-weight: normal;
+}
+
+.menu {
+	float:left;
+	width:25%;
+}
+
+.menu-icon {
+	position:relative;
+}
+
+.text{
+	width:80%;
+	display:inline-block;
+	margin-top:20px;
+	font-size:15px;
+	color:#b3aeb5;
 }
